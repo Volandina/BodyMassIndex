@@ -1,8 +1,8 @@
 public class BmiService {
-    public double  calculate (double a, double b) {
+    public double  calculate (double weigh, double grow) {
         double  result;
-        double c = b/100;
-        result = a / (c*c) ;
+        double c = grow/100;
+        result = weigh / (c*c) ;
         return result;
     }
 }
